@@ -1,6 +1,6 @@
 # 🎬 Netflix Content Analysis & Dashboard
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes Netflix content data to uncover insights about content distribution, growth trends, audience targeting, and regional availability. 
 
 It combines:
@@ -11,7 +11,7 @@ It combines:
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Analyze Movies vs TV Shows distribution  
 - Understand content growth over time  
@@ -23,27 +23,27 @@ It combines:
 
 ---
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
-![Dashboard](images/dashboard_preview.png)
+https://app.powerbi.com/links/2ryZkycyXp?ctid=880db91c-d2b8-4752-96bb-ec6f76398bf3&pbi_source=linkShare
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 
-### 📺 Content Distribution
+###  Content Distribution
 - Movies dominate Netflix content (~70%)
 - TV Shows are increasing over time
 
 ---
 
-### 📈 Growth Trend
+###  Growth Trend
 - Significant growth after 2015
 - Peak content addition around 2019–2020
 
 ---
 
-### 🌍 Country Analysis
+###  Country Analysis
 - Content is concentrated in a few countries:
   - United States
   - India
@@ -52,7 +52,7 @@ It combines:
 
 ---
 
-### 🎭 Genre Analysis
+###  Genre Analysis
 - Top genres include:
   - International Movies
   - Dramas
@@ -62,7 +62,7 @@ It combines:
 
 ---
 
-### 🎯 Audience Targeting
+###  Audience Targeting
 - Majority content is rated:
   - TV-MA
   - TV-14  
@@ -70,14 +70,14 @@ It combines:
 
 ---
 
-## 🤖 Recommendation System
+##  Recommendation System
 
-### 📌 Overview
+###  Overview
 A content-based recommendation system was built to suggest similar movies and TV shows based on genre and description.
 
 ---
 
-### ⚙️ Methodology
+###  Methodology
 
 - Combined features:
   - Genre (`listed_in`)
@@ -88,7 +88,7 @@ A content-based recommendation system was built to suggest similar movies and TV
 
 ---
 
-### 💡 Example
+###  Example
 
 Input:
 
@@ -98,7 +98,7 @@ Output:
 
 ---
 
-### 📈 Business Value
+###  Business Value
 
 - Improves user experience  
 - Enhances content discovery  
@@ -106,7 +106,7 @@ Output:
 
 ---
 
-## ⚙️ Data Processing Steps
+##  Data Processing Steps
 
 - Removed duplicate records  
 - Handled missing values  
@@ -119,7 +119,7 @@ Output:
 
 ---
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 - KPI Cards:
   - Total Titles  
@@ -143,7 +143,7 @@ Output:
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 
 - Python (Pandas, NumPy)
 - Power BI
@@ -153,8 +153,9 @@ Output:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 Netflix-Content-Analysis/
+
 │
 ├── data/
 │ └── netflix_cleaned.csv
@@ -183,7 +184,7 @@ Netflix-Content-Analysis/
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - No user-level data (watch history)  
 - Content-based recommendation only  
@@ -191,7 +192,7 @@ Netflix-Content-Analysis/
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
 - Hybrid recommendation system  
 - Real-time data integration  
@@ -200,6 +201,6 @@ Netflix-Content-Analysis/
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates how data analysis, machine learning, and visualization can be combined to generate meaningful insights and improve decision-making for streaming platforms like Netflix.
